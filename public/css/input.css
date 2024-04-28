@@ -17,4 +17,17 @@
     .h_iframe-aparat_embed_frame{position:relative;}
     .h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}
     .h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+
+
   }
+
+ @layer components{
+  .childp{
+    @apply absolute object-cover h-full;
+  }
+  .pertaintoimg{
+    @apply relative w-full overflow-hidden;
+    padding-bottom:calc(0.91*100%);
+  }
+
+ } 
