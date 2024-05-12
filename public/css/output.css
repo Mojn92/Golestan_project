@@ -696,16 +696,16 @@ video {
   bottom: 1.25rem;
 }
 
-.bottom-\[5px\] {
-  bottom: 5px;
+.bottom-\[20px\] {
+  bottom: 20px;
 }
 
 .left-0 {
   left: 0px;
 }
 
-.left-\[5px\] {
-  left: 5px;
+.left-\[20px\] {
+  left: 20px;
 }
 
 .right-0 {
@@ -726,14 +726,6 @@ video {
 
 .top-\[385px\] {
   top: 385px;
-}
-
-.left-\[20px\] {
-  left: 20px;
-}
-
-.bottom-\[20px\] {
-  bottom: 20px;
 }
 
 .z-20 {
@@ -1618,6 +1610,26 @@ video {
   content: var(--tw-content);
 }
 
+.hover\:h-\[100vh\]:hover {
+  height: 100vh;
+}
+
+.hover\:h-\[90vh\]:hover {
+  height: 90vh;
+}
+
+.hover\:h-\[80vh\]:hover {
+  height: 80vh;
+}
+
+.hover\:w-full:hover {
+  width: 100%;
+}
+
+.hover\:overflow-y-scroll:hover {
+  overflow-y: scroll;
+}
+
 .hover\:bg-\[\#FD1c24\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(253 28 36 / var(--tw-bg-opacity));
@@ -1682,8 +1694,20 @@ video {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+.group\/submenu:hover .group-hover\/submenu\:block {
+  display: block;
+}
+
 .group:hover .group-hover\:block {
   display: block;
+}
+
+.group:hover .group-hover\:h-\[100vh\] {
+  height: 100vh;
+}
+
+.group:hover .group-hover\:overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .peer:hover ~ .peer-hover\:block {
@@ -1762,6 +1786,14 @@ video {
 
   .tablet1\:w-auto {
     width: auto;
+  }
+
+  .tablet1\:w-\[150px\] {
+    width: 150px;
+  }
+
+  .tablet1\:w-\[170px\] {
+    width: 170px;
   }
 
   .tablet1\:min-w-\[182px\] {
