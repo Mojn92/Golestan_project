@@ -1610,14 +1610,6 @@ video {
   content: var(--tw-content);
 }
 
-.hover\:h-\[100vh\]:hover {
-  height: 100vh;
-}
-
-.hover\:h-\[90vh\]:hover {
-  height: 90vh;
-}
-
 .hover\:h-\[80vh\]:hover {
   height: 80vh;
 }
@@ -1702,14 +1694,6 @@ video {
   display: block;
 }
 
-.group:hover .group-hover\:h-\[100vh\] {
-  height: 100vh;
-}
-
-.group:hover .group-hover\:overflow-y-scroll {
-  overflow-y: scroll;
-}
-
 .peer:hover ~ .peer-hover\:block {
   display: block;
 }
@@ -1784,16 +1768,16 @@ video {
     min-height: 560px;
   }
 
-  .tablet1\:w-auto {
-    width: auto;
-  }
-
   .tablet1\:w-\[150px\] {
     width: 150px;
   }
 
   .tablet1\:w-\[170px\] {
     width: 170px;
+  }
+
+  .tablet1\:w-auto {
+    width: auto;
   }
 
   .tablet1\:min-w-\[182px\] {
