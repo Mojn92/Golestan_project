@@ -5,18 +5,18 @@
 @layer base {
     @font-face {
       font-family: 'IRANSansLight';
-      src: url(/public/font/IRANSansLight.woff) format('woff');
+      src: url(../font/IRANSansLight.woff) format('woff');
    
     }
 
     @font-face {
       font-family: 'eicons';
-      src: url(/public/font/eicons.woff2) format('woff2');
+      src: url(../font/eicons.woff2) format('woff2');
     }
 
     @font-face {
       font-family:'solid-900';
-      src: url(/public/font/fa-solid-900.woff2) format('woff2');
+      src: url(../font/fa-solid-900.woff2) format('woff2');
     }
 
     .h_iframe-aparat_embed_frame{position:relative;}
