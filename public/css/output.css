@@ -954,10 +954,6 @@ video {
   width: 1.25rem;
 }
 
-.w-\[150px\] {
-  width: 150px;
-}
-
 .w-\[25\%\] {
   width: 25%;
 }
@@ -1209,56 +1205,36 @@ video {
   background-image: url('../images/header/1.png');
 }
 
-.bg-\[url\(\'\/public\/images\/scrool-background\/recipe-baner-1\.png\'\)\] {
-  background-image: url('/public/images/scrool-background/recipe-baner-1.png');
+.bg-\[url\(\'\.\.\/images\/socialmedia\/aparat\.png\'\)\] {
+  background-image: url('../images/socialmedia/aparat.png');
 }
 
-.bg-\[url\(\'\/public\/images\/socialmedia\/aparat\.png\'\)\] {
-  background-image: url('/public/images/socialmedia/aparat.png');
-}
-
-.bg-\[url\(\'\/public\/images\/socialmedia\/facebook\.png\'\)\] {
-  background-image: url('/public/images/socialmedia/facebook.png');
-}
-
-.bg-\[url\(\'\/public\/images\/socialmedia\/gl\.png\'\)\] {
-  background-image: url('/public/images/socialmedia/gl.png');
-}
-
-.bg-\[url\(\'\/public\/images\/socialmedia\/in\.png\'\)\] {
-  background-image: url('/public/images/socialmedia/in.png');
-}
-
-.bg-\[url\(\'\/public\/images\/socialmedia\/instagram\.png\'\)\] {
-  background-image: url('/public/images/socialmedia/instagram.png');
-}
-
-.bg-\[url\(\'\/public\/images\/socialmedia\/telegram\.png\'\)\] {
-  background-image: url('/public/images/socialmedia/telegram.png');
+.bg-\[url\(\'\.\.\/images\/socialmedia\/facebook\.png\'\)\] {
+  background-image: url('../images/socialmedia/facebook.png');
 }
 
 .bg-\[url\(\'\.\.\/images\/socialmedia\/gl\.png\'\)\] {
   background-image: url('../images/socialmedia/gl.png');
 }
 
-.bg-\[url\(\'\.\.\/images\/socialmedia\/aparat\.png\'\)\] {
-  background-image: url('../images/socialmedia/aparat.png');
-}
-
-.bg-\[url\(\'\.\.\/images\/socialmedia\/telegram\.png\'\)\] {
-  background-image: url('../images/socialmedia/telegram.png');
+.bg-\[url\(\'\.\.\/images\/socialmedia\/in\.png\'\)\] {
+  background-image: url('../images/socialmedia/in.png');
 }
 
 .bg-\[url\(\'\.\.\/images\/socialmedia\/instagram\.png\'\)\] {
   background-image: url('../images/socialmedia/instagram.png');
 }
 
-.bg-\[url\(\'\.\.\/images\/socialmedia\/in\.png\'\)\] {
-  background-image: url('../images/socialmedia/in.png');
+.bg-\[url\(\'\.\.\/images\/socialmedia\/telegram\.png\'\)\] {
+  background-image: url('../images/socialmedia/telegram.png');
 }
 
-.bg-\[url\(\'\.\.\/images\/socialmedia\/facebook\.png\'\)\] {
-  background-image: url('../images/socialmedia/facebook.png');
+.bg-\[url\(\'\/public\/images\/scrool-background\/recipe-baner-1\.png\'\)\] {
+  background-image: url('/public/images/scrool-background/recipe-baner-1.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/scrool-background\/recipe-baner-1\.png\'\)\] {
+  background-image: url('../images/scrool-background/recipe-baner-1.png');
 }
 
 .bg-fixed {
@@ -1658,44 +1634,16 @@ video {
   background-color: rgba(0,0,0,0.8);
 }
 
-.hover\:bg-\[url\(\'\/public\/images\/socialmedia\/acolor\.png\'\)\]:hover {
-  background-image: url('/public/images/socialmedia/acolor.png');
-}
-
-.hover\:bg-\[url\(\'\/public\/images\/socialmedia\/fcolor\.png\'\)\]:hover {
-  background-image: url('/public/images/socialmedia/fcolor.png');
-}
-
-.hover\:bg-\[url\(\'\/public\/images\/socialmedia\/gcolor\.png\'\)\]:hover {
-  background-image: url('/public/images/socialmedia/gcolor.png');
-}
-
-.hover\:bg-\[url\(\'\/public\/images\/socialmedia\/icolor\.png\'\)\]:hover {
-  background-image: url('/public/images/socialmedia/icolor.png');
-}
-
-.hover\:bg-\[url\(\'\/public\/images\/socialmedia\/incolor\.png\'\)\]:hover {
-  background-image: url('/public/images/socialmedia/incolor.png');
-}
-
-.hover\:bg-\[url\(\'\/public\/images\/socialmedia\/tcolor\.png\'\)\]:hover {
-  background-image: url('/public/images/socialmedia/tcolor.png');
-}
-
-.hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/gcolor\.png\'\)\]:hover {
-  background-image: url('../images/socialmedia/gcolor.png');
-}
-
-.hover\:bg-\[url\(\'\.\.c\/images\/socialmedia\/acolor\.png\'\)\]:hover {
-  background-image: url('..c/images/socialmedia/acolor.png');
-}
-
 .hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/acolor\.png\'\)\]:hover {
   background-image: url('../images/socialmedia/acolor.png');
 }
 
-.hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/tcolor\.png\'\)\]:hover {
-  background-image: url('../images/socialmedia/tcolor.png');
+.hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/fcolor\.png\'\)\]:hover {
+  background-image: url('../images/socialmedia/fcolor.png');
+}
+
+.hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/gcolor\.png\'\)\]:hover {
+  background-image: url('../images/socialmedia/gcolor.png');
 }
 
 .hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/icolor\.png\'\)\]:hover {
@@ -1706,8 +1654,8 @@ video {
   background-image: url('../images/socialmedia/incolor.png');
 }
 
-.hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/fcolor\.png\'\)\]:hover {
-  background-image: url('../images/socialmedia/fcolor.png');
+.hover\:bg-\[url\(\'\.\.\/images\/socialmedia\/tcolor\.png\'\)\]:hover {
+  background-image: url('../images/socialmedia/tcolor.png');
 }
 
 .hover\:text-\[\#FFFFFF\]:hover {
@@ -1749,6 +1697,11 @@ video {
   display: block;
 }
 
+.dark\:bg-\[\#cb9f78\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 159 120 / var(--tw-bg-opacity));
+}
+
 .dark\:bg-\[\#ffff65\]:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 101 / var(--tw-bg-opacity));
@@ -1763,36 +1716,9 @@ video {
   background-color: rgba(12,13,14,0.89);
 }
 
-.dark\:bg-orange-400:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
-}
-
 .dark\:bg-slate-50:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-}
-
-.dark\:bg-\[orange-400\]:is(.dark *) {
-  background-color: orange-400;
-}
-
-.dark\:bg-\[\#\]:is(.dark *) {
-  background-color: #;
-}
-
-.dark\:bg-\[\#ff\]:is(.dark *) {
-  background-color: #ff;
-}
-
-.dark\:bg-\[\#fff\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.dark\:bg-\[\#cb9f78\]:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 159 120 / var(--tw-bg-opacity));
 }
 
 .dark\:text-\[gray\]:is(.dark *) {
